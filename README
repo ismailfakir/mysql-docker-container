@@ -1,0 +1,17 @@
+# step1: create a directory mysql-data/db in the current directory to store mysql data
+# start container & run mysql, phpmyadmin
+    $ docker-compose up -d
+# stop containers
+    $ docker-compose down
+
+#mysql
+    mysql port: 3306
+    mysql root user password: roor
+
+    mysql user: user
+    myswl user password: password
+
+# phpmyadmin
+    http://localhost:9090/
+    use mysql account to login
+    
